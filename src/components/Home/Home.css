@@ -1,0 +1,29 @@
+.home {
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    height: 80px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.planetContainer {
+    width: 50%;
+    height: 400px;
+}
+
+.planet {
+    width: 350px;
+    height: 350px;
+    background: lightblue;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
