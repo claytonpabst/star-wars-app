@@ -18,12 +18,30 @@
 .planetContainer {
     width: 50%;
     height: 400px;
+    background: Black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.planetContainer:hover{
+    opacity: 0.8;
 }
 
 .planet {
     width: 350px;
     height: 350px;
-    background: lightblue;
+    /*background: lightblue;*/
     border-radius: 50%;
     margin: 0 auto 10px auto;
+}
+
+.degabah {
+    background: url("./../../img/degabah.png")center no-repeat;
+    background-size: cover;
+}
+
+.coruscant {
+    background: url("./../../img/coruscant.png")center no-repeat;
+    background-size: cover;
 }

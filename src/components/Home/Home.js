@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import axios from 'axios';
 
 import './Home.css';
@@ -38,22 +39,23 @@ class Home extends Component {
             Explore the Galaxy!
         </header>
         <div className="main">
-            <div className="planetContainer">
-                <div className="planet">
+                <Link className="planetContainer" to='/planet/degabah'>
+                    <div className="planet degabah">
 
-                </div>
-                <h1>
-                    this.state.planetOneName
-                </h1>
-            </div>
-            <div className="planetContainer">
-                <div className="planet">
+                    </div>
+                    <h1>
+                        {this.state.planetOneName}
+                    </h1>
+                </Link>   
 
+                <div className="planetContainer">
+                    <div className="planet coruscant">
+
+                    </div>
+                    <h1>
+                        {this.state.planetTwoName}
+                    </h1>
                 </div>
-                <h1>
-                    this.state.planetTwoName
-                </h1>
-            </div>
         </div> 
 
       </div>
